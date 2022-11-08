@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+p{
+    width:500px;
+}
+
+#space{
+    height:300px;
+}
+
+/* You can build keyframes for as many different percents as you'd like */
+@keyframes zoomFromRight {
+    0% {
+        transform: translateX(100vw);
+    }
+}
+
+.zoomAnimation{
+    animation-name: zoomFromRight;
+    animation-duration: .65s;
+    animation-timing-function: ease-out;
+}
